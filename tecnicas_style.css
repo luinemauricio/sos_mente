@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Merriweather', serif;
+  }
+
+
+  header{
+    display: block;
+    background: linear-gradient(to top, transparent 0%, #fff 80%), no-repeat center center;
+    background-size: cover
+  }
+  .header__div-nav{
+    background-color: white;
+    width: 100%;
+    top: 0;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding: 70px;
+    padding-left: 150px;
+    padding-right: 150px;
+    background-color: rgb(138, 14, 5);
+    
+  }
+  
+  .header__nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+    
+  }
+  .header__nav-a{
+  color: white;
+  font-size: 18px;
+  }
+  
+  .header__nav-a:hover {
+    color: rgb(184, 131, 17);
+    font-weight: bold;
+  }
+  
+  .header__img{
+  margin: 50px;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  
+  }
+
+
+
+
+/*main */
+
+.main_projeto{
+  margin: 50px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+
+.main__div-h2{
+padding-bottom: 50px;
+justify-content: center;
+display: flex;
+justify-content: center;
+
+}
+
+.p_sobre{
+padding-bottom: 30px;
+text-align: justify;
+
+}
+
+.div_projeto2{
+padding-top: 50px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.section_sobre{
+  display: flex;
+}
+
+.imagem_section{
+  width: 800px;
+}
+
+/* footer */
+
+.footer_main{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgb(157, 204, 164);
+  margin: auto;
+  padding: 10px;
+  
+  }
+  
+  .footer_img{
+  margin: 15px;
+  padding: 15px;
+  
+  }
+  
+  .p_footer{
+  margin-top: 35px;
+  
+  }
+  
+  .img_linkedin{
+  width: 60px;
+  padding: 5px;
+  }
+  
+  .img_git{
+  width: 60px;
+  padding: 5px;
+  }
+  
+  .hr_footer{
+  width: 600px;
+  color: black;
+  margin-left: 300px;
+  
+  
+  }
+  
+  .p_footer{
+  padding: 15px;
+  font-size: 15px;
+  text-align: center;
+  color: rgb(138, 14, 5);
+  }
+  
+  .p_footer2{
+    padding: 10px;
+    font-size: 13px;
+    text-align: center;
+    }
+  
+  .div_imagem_footer{
+  display: flex;
+  flex-direction: row;
+  padding-left: 400px;
+  
+  }
+  
+  .imagem_footer{
+  width: 80px;
+  padding: 15px;
+    
+  }
+  
+  .imagem_SOS{
+  width: 250px;
+  }

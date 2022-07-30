@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./cadastro_style.css">
+    <title>SOS MENTE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header id="header_nav">
+        <div class="header__div-nav">
+            
+            <nav class="header__nav">
+                <a href="./home_index.html" class="header__nav-a">Início</a>
+                <a href="saudemental_index.html" class="header__nav-a">Entenda mais sobre saúde mental</a>
+                <a href="tecnicas_index.html" class="header__nav-a">Técnicas emergênciais</a>
+                <a href="cadastro_index.html" class="header__nav-a">Cadastre se aqui</a>
+            </nav>
+            <img src="./imagens/logo_SOS_Mente3-removebg-preview.png" width="250px" alt="">
+        </div>
+        
+              
+            
+    </header>
+
+
+    <main class="main">
+        <div>
+            <br>
+            <h1 id="titulo">Cadastre-se aqui!</h1>
+            <br>
+
+            <form action="">
+                <fieldset class="grupo">
+                    <div class="campo">
+                        <label for="firstname"><strong>Primeiro Nome</strong></label>
+                        <input  id="firstname" type="text" name="firstname" placeholder="Digite seu primeiro nome" required>
+                    </div>
+
+                    <div class="campo">
+                        <label for="lastname"><strong>Sobrenome</strong></label>
+                        <input  id="lastname" type="text" name="lastname" placeholder="Digite seu sobrenome" required>
+                    </div>
+
+                    <div class="campo">
+                        <label for="email"><strong>E-mail</strong></label>
+                        <input  id="email" type="email" name="email" placeholder="Digite seu email" required>
+                    </div>
+
+                    <div class="campo">
+                        <label for="telefone"><strong>Telefone</strong></label>
+                        <input  id="telefone" type="tel" name="telefone" placeholder="Digite seu telefone" required>
+                    </div>
+
+                    <br>
+                    
+                </fieldset>
+               
+                
+                
+                <div>
+                    <label for="perfil"><strong>Quem deseja se cadastrar?</strong></label>
+                    <label for="perfil">
+                        <input type="radio" id="paciente" name="perfil" checked>Paciente
+                    </label>
+                    <label for="perfil">
+                        <input type="radio" id="psicologo" name="perfil"> Psicólogo ou estudante de psicologia
+                    </label>
+                </div>
+                
+                <div>
+                    <label for="cidade"><strong>Qual a região que você mora?</strong></label>
+                    <select name="cidade" id="cidade">
+                        <option selected disabled value="">Selecione</option>
+                        <option value="">Norte</option>
+                        <option value="">Nordeste</option>
+                        <option value="">Centro oeste</option>
+                        <option value="">Sudeste</option>
+                        <option value="">Sul</option>
+                    </select>
+                    <br><br>   
+                </div>
+
+                <fieldset class="grupo">
+                    <div id="check">
+                        <label for="grupo"><strong>Qual tipo de transtorno está sentindo?</strong></label><br><br>
+                        <input type="checkbox" id="ansiedade" name="ansiedade" value="ansiedade">
+                        <label for="ansiedade">Ansiedade</label>
+                        <input type="checkbox" id="depressão" name="depressão" value="depressão">
+                        <label for="depressão">Depressão</label>
+                        <input type="checkbox" id="burnout" name="burnout" value="burnout">
+                        <label for="burnout">Síndrome de burnout</label>
+                        <input type="checkbox" id="compulsivo" name="compulsivo" value="compulsivo">
+                        <label for="compulsivo">Transtorno compulsivo obsessivo</label>
+                        <input type="checkbox" id="bipolar" name="bipolar" value="bipolar">
+                        <label for="bipolar">Transtorno bipolar</label>
+                        <input type="checkbox" id="personalidade" name="personalidade" value="personalidade">
+                        <label for="personalidade">Transtorno de personalidade</label><br><br>
+                    </div>
+                </fieldset>
+
+                <div>
+                    <br>
+                    <label for="informacoes"><strong>Conte-nos como nos conheceu e quais as causas do seu adoecimento.</strong></label>
+                    <textarea name="informacoes" id="informacoes" cols="115" rows="15"></textarea>
+                </div>
+
+                <div>
+                    <button class="botao" type="submit">Enviar</button>
+                </div>
+
+            </form>
+
+        </div>
+    </main>
+
+    <footer >
+        <section class="footer_main">
+            <div>
+                <img src="./imagens/logo_SOS_Mente3-removebg-preview.png"  class="imagem_SOS" alt="">
+            </div>
+            <div>
+                <p class="p_footer"><strong>"Irmão, você não percebeu que você é o único representante do seu sonho na face da terra?
+                    Se isso não fizer você correr, chapa, eu não sei o que vai. Então levanta e anda, vai, levanta e anda". Emicida</strong></p>
+
+                    <hr class="hr_footer">
+                <p class="p_footer2"><strong>Site desenvolvido por Luine Mauricio, aluna da Reprograma, que entende a urgência 
+                    em falarmos sobre saúde mental que tem sido a causa do adoecimento de muitas pessoas.</strong></p>
+
+                <p class="p_footer2"><strong>A toda equipe Reprograma os meus sinceros agradecimentos por essa jornada incrível, tudo isso só foi possível através da oportunidade que me deram!</strong></p>
+                    
+                    
+                <div class="div_imagem_footer">
+                    <a href="https://github.com/luinemauricio" target="_blank"><img class="imagem_footer" src="./imagens/github.png" alt=""></a>
+                    <a href="https://www.linkedin.com/in/luine-mauricio" target="_blank"><img class="imagem_footer" src="./imagens/linkedin.png" alt=""></a>
+                    
+                </div>
+                    
+            </div>                                 
+
+        </section>
+               
+
+    </footer>
+
+   
+</body>
+</html>
